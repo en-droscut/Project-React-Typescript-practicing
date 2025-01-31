@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'DavaSans-Light';
+  src: url('./fonts/DavaSans-Light.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-LightItalic';
+  src: url('./fonts/DavaSans-LightItalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-Regular';
+  src: url('./fonts/DavaSans-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-Italic';
+  src: url('./fonts/DavaSans-Italic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-Medium';
+  src: url('./fonts/DavaSans-Medium.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-MediumItalic';
+  src: url('./fonts/DavaSans-MediumItalic.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-Bold';
+  src: url('./fonts/DavaSans-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'DavaSans-BoldItalic';
+  src: url('./fonts/DavaSans-BoldItalic.otf') format('otf');
+}

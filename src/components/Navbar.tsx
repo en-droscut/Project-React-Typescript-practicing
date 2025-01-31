@@ -1,7 +1,7 @@
 import React from "react";
-// import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import endavaBigLogo from "../assets/endava-logo-big.svg";
+import endavaBigLogo from "../assets/logos/endava_logo_neg_RGB.svg";
+// import menuIcon from "../assets/icons/menu.svg";
 
 const NavigationBar: React.FC = () => {
   return (
@@ -15,8 +15,10 @@ const NavigationBar: React.FC = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-expanded="false"
         >
-          <span className="navbar-toggler-icon"></span>
+          <div className="endava-toggler-icon menu-icon"></div>
+          <div className="endava-toggler-icon close-icon"></div>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
