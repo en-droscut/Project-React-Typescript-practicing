@@ -1,7 +1,7 @@
 const Contact: React.FC = () => {
   return (
     <>
-      <p>Contact</p>
+      <h1>Contact</h1>
     </>
   );
 };
