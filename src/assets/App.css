@@ -3,8 +3,20 @@
 :root {
   --endava-orange: rgb(255, 86, 64);
   --endava-bg: rgb(25,43,55);
+  --endava-dark-text-color: rgb(25,43,55);
 
   --endava-light-font: 'DavaSans-Light', sans-serif;
+  --endava-medium-font: 'DavaSans-Medium', sans-serif;
+  --endava-bold-font: 'DavaSans-Bold', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--endava-dark-text-color) !important;
+  font-family: var(--endava-bold-font) !important;
+}
+
+p, span {
+  color: var(--endava-dark-text-color) !important;
 }
 
 .endava-color {
@@ -22,6 +34,18 @@ body {
 nav {
   font-family: 'DavaSans-Light', sans-serif !important;
 }
+
+.container.mainContainer {
+  padding-top: 85px !important;
+}
+
+  nav .nav-item a{
+    color: white
+  }
+
+    nav .nav-item.active a {
+      color: var(--endava-orange);
+    }
 
   nav .navbar-toggler {
     padding: 0;
@@ -72,9 +96,9 @@ footer {
     text-decoration: none;
   }
 
-  footer a:hover {
-    text-decoration: underline;
-  }
+    footer a:hover {
+      text-decoration: underline;
+    }
 
   footer img.endava-symbol {
     width: 13px;
@@ -82,4 +106,8 @@ footer {
 
   footer FaHeart{
     color: var(--endava-orange);
+  }
+
+  footer p {
+    color: white !important;
   }
